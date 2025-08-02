@@ -1,10 +1,10 @@
-import os
 
-file2 = "File2.txt"
+
+file2 = "File2.txt" #creating a variable for the output file
 file = []
 
 try:
-    with open('file.txt','r') as file:
+    with open('file.txt','r',encoding='utf-8') as file:
         for line in file:
           base = file.readlines()
         
