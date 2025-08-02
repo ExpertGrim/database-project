@@ -16,4 +16,6 @@ try:
         
 except FileNotFoundError:
     print("Thats not a file")
+except FileExistsError:
+    print("File already exists")
     
