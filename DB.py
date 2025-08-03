@@ -19,14 +19,22 @@ try:
                 
         citypop = set() #empty list to hold the population nuumbers
         for row in rows:
-            if 'CityPopulation' in row and 'CityName' : #Calls the header directly in dictionary
+            if 'CityPopulation' in row and 'CityName' in row : #Calls the header directly in dictionary
                 cityN = row['CityName']
                 pop = int(row['CityPopulation'])#Converts the string in the dictionary into integers
                 citypop.add((cityN,pop))
-        print(citypop)
         # sorts the list citypop and then reverse the order to ensure the largest numbers are on top and then pulls the top 5
         city5 = sorted(citypop,key=lambda x: x[1] , reverse=True)[:5]
         file.write("\n\nQuestion b: \n " + str(city5))
+        
+        landMass = set() #empty list to hold the population nuumbers
+        for row in rows:
+            if 'LandMass' in row and 'CityName' in row : #Calls the header directly in dictionary
+                cityN = row['CityName']
+                Land = int(row['LandMass'])#Converts the string in the dictionary into integers
+                landMass.add((cityN,Land))
+        land5 = sorted(landMass,key=lambda y: y[1], reverse=True)[:5]
+        file.write("\n\nQuestion c: \n" + str(land5) ) 
          
             
         
