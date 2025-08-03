@@ -1,7 +1,6 @@
 
 
 file2 = "File2.txt" #creating a variable for the output file
-data = []
 
 try:
     with open('file.txt','r',encoding='utf-8-sig') as file:
