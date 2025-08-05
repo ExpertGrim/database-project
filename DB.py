@@ -28,12 +28,21 @@ try:
         
         landMass = set() #empty list to hold the population nuumbers
         for row in rows:
-            if 'LandMass' in row and 'CityName' in row : #Calls the header directly in dictionary
-                cityN = row['CityName']
-                Land = int(row['LandMass'])#Converts the string in the dictionary into integers
+            if 'LandMass' in row and 'CountryName' in row : #Calls the header directly in dictionary
+                countryN = row['CountryName']
+                Land = (row['LandMass'])#Converts the string in the dictionary into integers
                 landMass.add((cityN,Land))
         land5 = sorted(landMass,key=lambda y: y[1], reverse=True)[:5]
         file.write("\n\nQuestion c: \n" + str(land5) ) 
+        
+        Base = set()
+        for row in rows:
+            country = row['CountryName'] # calls to dictionary rows to find the header CountryName
+            if country.endswith("a"):  #searchs through the dictionary for countrys that end with a 
+                Base.add(country)
+        file.write("\n\nQuestion h: \n" + str(Base))
+                
+         
          
             
         

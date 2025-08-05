@@ -3,3 +3,9 @@
 
 Question b: 
  [('Mumbai (Bombay)', 10500000), ('Seoul', 9981619), ('São Paulo', 9968485), ('Shanghai', 9696300), ('Jakarta', 9604900)]
+
+Question c: 
+[('Gweru', 'Micronesia'), ('Gweru', 'Central Africa'), ('Gweru', 'Caribbean'), ('Gweru', '9970610'), ('Gweru', '99434')]
+
+Question h: 
+{'Bermuda', 'New Caledonia', 'Malta', 'French Guiana', 'Australia', 'Guyana', 'Jamaica', 'Armenia', 'Cambodia', 'Nicaragua', 'Anguilla', 'Liberia', 'Georgia', 'French Polynesia', 'Slovenia', 'Zambia', 'Western Sahara', 'Austria', 'Kenya', 'Equatorial Guinea', 'Canada', 'Malaysia', 'Estonia', 'Moldova', 'Costa Rica', 'Guatemala', 'Sri Lanka', 'Libyan Arab Jamahiriya', 'Tunisia', 'Mauritania', 'Ethiopia', 'Panama', 'Grenada', 'Rwanda', 'Uganda', 'Ghana', 'Saudi Arabia', 'Tanzania', 'Papua New Guinea', 'Guinea', 'India', 'Andorra', 'China', 'Croatia', 'Antigua and Barbuda', 'Wallis and Futuna', 'Colombia', 'Saint Lucia', 'Samoa', 'South Korea', 'Argentina', 'North Korea', 'Latvia', 'Mongolia', 'Syria', 'Cuba', 'Dominica', 'Gambia', 'Albania', 'Aruba', 'Bosnia and Herzegovina', 'Venezuela', 'Macedonia', 'Indonesia', 'Slovakia', 'Tonga', 'Botswana', 'Romania', 'Saint Helena', 'Angola', 'American Samoa', 'South Africa', 'Somalia', 'Bolivia', 'Yugoslavia', 'Eritrea', 'Bulgaria', 'Nigeria', 'Algeria', '"Micronesia', 'Namibia', 'Lithuania'}
