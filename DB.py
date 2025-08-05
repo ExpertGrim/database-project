@@ -35,6 +35,39 @@ try:
         land5 = sorted(landMass,key=lambda y: y[1], reverse=True)[:5]
         file.write("\n\nQuestion c: \n" + str(land5) ) 
         
+        # d) Countries with independence year between 1960-1980
+
+        #Thando: This code counts the number of countries that have independence year between 1960 and 1980, then shows the total of thos countries in File2
+        count_indep = 0
+        for row in rows:
+            if 'IndepYear' in row and 'CountryName' in row:
+                try:
+                    Year = int(row['IndepYear'])
+                    if 1960 <= Year <= 1980:
+                        count_indep += 1
+                except ValueError:
+                    #Skip invalid entries like 'NULL' or non-numeric values
+                    continue
+        file.write("\n\nQuestion d: \n" + str(count_indep) )
+        
+         # f) Top 5 African countries by life expectancy
+        African = set()
+        for row in rows:
+                Cont = row['Continent']
+                if Cont == "Africa":
+                    life = float(row['LifeExpectancy'])
+                    Country = row['CountryName']
+                    African.add((Country,life))
+        Afri5 = sorted(African,key=lambda z: z[1], reverse=True)[:5]
+        file.write("\n\nQuestion f: \n " + str(Afri5))
+            
+                    
+             
+             
+        #Question g:
+        
+        
+        #Question h:
         Base = set()
         for row in rows:
             country = row['CountryName'] # calls to dictionary rows to find the header CountryName

@@ -7,5 +7,11 @@ Question b:
 Question c: 
 [('Gweru', 'Micronesia'), ('Gweru', 'Central Africa'), ('Gweru', 'Caribbean'), ('Gweru', '9970610'), ('Gweru', '99434')]
 
+Question d: 
+1731
+
+Question f: 
+ [('Saint Helena', 76.8), ('Libyan Arab Jamahiriya', 75.5), ('Tunisia', 73.7), ('Réunion', 72.7), ('Mauritius', 71.0)]
+
 Question h: 
-{'Bermuda', 'New Caledonia', 'Malta', 'French Guiana', 'Australia', 'Guyana', 'Jamaica', 'Armenia', 'Cambodia', 'Nicaragua', 'Anguilla', 'Liberia', 'Georgia', 'French Polynesia', 'Slovenia', 'Zambia', 'Western Sahara', 'Austria', 'Kenya', 'Equatorial Guinea', 'Canada', 'Malaysia', 'Estonia', 'Moldova', 'Costa Rica', 'Guatemala', 'Sri Lanka', 'Libyan Arab Jamahiriya', 'Tunisia', 'Mauritania', 'Ethiopia', 'Panama', 'Grenada', 'Rwanda', 'Uganda', 'Ghana', 'Saudi Arabia', 'Tanzania', 'Papua New Guinea', 'Guinea', 'India', 'Andorra', 'China', 'Croatia', 'Antigua and Barbuda', 'Wallis and Futuna', 'Colombia', 'Saint Lucia', 'Samoa', 'South Korea', 'Argentina', 'North Korea', 'Latvia', 'Mongolia', 'Syria', 'Cuba', 'Dominica', 'Gambia', 'Albania', 'Aruba', 'Bosnia and Herzegovina', 'Venezuela', 'Macedonia', 'Indonesia', 'Slovakia', 'Tonga', 'Botswana', 'Romania', 'Saint Helena', 'Angola', 'American Samoa', 'South Africa', 'Somalia', 'Bolivia', 'Yugoslavia', 'Eritrea', 'Bulgaria', 'Nigeria', 'Algeria', '"Micronesia', 'Namibia', 'Lithuania'}
+{'Nicaragua', 'South Africa', 'Saint Helena', 'Costa Rica', 'South Korea', 'Western Sahara', 'Antigua and Barbuda', 'Canada', 'Samoa', 'Venezuela', 'Equatorial Guinea', 'Guyana', 'Tanzania', 'French Polynesia', 'Libyan Arab Jamahiriya', 'Guatemala', 'Yugoslavia', 'Colombia', 'Anguilla', 'Nigeria', 'Latvia', 'Rwanda', 'Namibia', 'Georgia', 'Andorra', 'Aruba', 'India', 'American Samoa', 'Jamaica', 'Mongolia', 'Moldova', 'Botswana', 'Eritrea', 'Croatia', 'Australia', 'Malaysia', 'Slovenia', 'Liberia', 'Albania', 'Grenada', 'Angola', 'Cambodia', 'Armenia', 'Uganda', 'Guinea', 'Bulgaria', 'Algeria', 'Kenya', 'Papua New Guinea', 'Romania', 'Saudi Arabia', 'Ghana', 'French Guiana', 'Slovakia', 'Syria', 'Wallis and Futuna', 'Tonga', '"Micronesia', 'Malta', 'Ethiopia', 'North Korea', 'Dominica', 'Sri Lanka', 'Macedonia', 'Austria', 'Gambia', 'Bosnia and Herzegovina', 'Zambia', 'Panama', 'Tunisia', 'Argentina', 'Indonesia', 'Somalia', 'Estonia', 'Lithuania', 'Cuba', 'Bermuda', 'New Caledonia', 'Bolivia', 'Saint Lucia', 'Mauritania', 'China'}
